@@ -2,7 +2,7 @@ import localFont from 'next/font/local';
 import './globals.css';
 
 // Components
-import Header from '@/components/ui/Header';
+import Header from '@/components/Header';
 
 const terminus = localFont({
   src: './fonts/TerminusTTFWindows-4.49.3.ttf',
