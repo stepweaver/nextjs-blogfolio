@@ -12,19 +12,19 @@ module.exports = {
       padding: '10px'
     },
     screens: {
-      sm: '800px',
-      md: '1024px',
-      lg: '1280px',
-      xl: '1440px'
+      sm: '640px',
+      md: '768px',
+      lg: '1024px',
+      xl: '1280px',
+      '2xl': '1536px'
     },
     fontFamily: {
       primary: 'var(--font-terminus)',
     },
     extend: {
       colors: {
-        primary: '#1c1c22',
+        primary: '#1C1C22',
         accent: {
-          DEFAULT: '#00FF00',
           hover: '#00CC00'
         },
         background: 'var(--background)',
