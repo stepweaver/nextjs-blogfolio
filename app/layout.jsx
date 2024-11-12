@@ -3,6 +3,8 @@ import './globals.css';
 
 // Components
 import Header from '@/components/Header';
+import PageTransition from '@/components/PageTransition';
+import StairTransition from '@/components/StairTransition';
 
 const terminus = localFont({
   src: './fonts/TerminusTTFWindows-4.49.3.ttf',
@@ -25,6 +27,8 @@ export default function RootLayout({ children }) {
     <html lang='en'>
       <body className={`${hack.variable} ${terminus.variable} antialiased`}>
         <Header />
+        <StairTransition />
+        <PageTransition />
         {children}
       </body>
     </html>
