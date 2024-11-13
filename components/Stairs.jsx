@@ -13,6 +13,17 @@ const stairAnimation = {
   },
 };
 
+const colors = [
+  'bg-red-500',
+  'bg-orange-500',
+  'bg-yellow-500',
+  'bg-green-500',
+  'bg-teal-500',
+  'bg-blue-500',
+  'bg-indigo-500',
+  'bg-purple-500',
+];
+
 // calculate the reverse index for staggered delay
 const reverseIndex = (index) => {
   const totalSteps = 10;
@@ -22,7 +33,7 @@ const reverseIndex = (index) => {
 export default function Stairs() {
   return (
     <>
-      {[...Array(10)].map((_, index) => {
+      {[...Array(8)].map((_, index) => {
         return (
           <motion.div
             key={index}
@@ -35,7 +46,7 @@ export default function Stairs() {
               ease: 'easeInOut',
               delay: reverseIndex(index) * 0.1,
             }}
-            className='h-full w-full bg-gray-950 relative'
+            className={`h-full w-full relative ${colors[index]}`}
           />
         );
       })}
