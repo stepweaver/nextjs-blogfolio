@@ -10,16 +10,15 @@ const links = [
   },
   {
     name: 'resume',
-    path: '/resume'
-  }
+    path: '/resume',
+  },
 ];
 
 export default function Nav() {
   const pathname = usePathname();
-  console.log(pathname);
 
   return (
-    <nav className='flex gap-8'>
+    <nav className='flex gap-8 text-xl'>
       {links.map((link, index) => {
         const isActive = link.path === pathname;
         return (
@@ -27,8 +26,8 @@ export default function Nav() {
             <Link
               href={link.path}
               className={`${
-                isActive ? 'text-green-500' : ''
-              } font-medium hover:text-green-500 transition-all`}
+                link.path === pathname && 'text-green-500'
+              } hover:text-green-500 transition-all`}
             >
               {link.name}
             </Link>

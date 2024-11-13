@@ -6,10 +6,10 @@ import { usePathname } from 'next/navigation';
 
 // Components
 import Nav from './Nav';
+import MobileNav from './MobileNav';
 
 export default function Header() {
   const pathname = usePathname();
-  const isHome = pathname === '/';
 
   return (
     <header className='py-2 xl:py-4 text-white'>
@@ -18,7 +18,7 @@ export default function Header() {
         <Link href='/'>
           <h1 className='text-3xl'>
             גstepweaver
-            {isHome && <span className='text-green-500 blink'>|</span>}
+            <span className='text-green-500 blink'>|</span>
           </h1>
         </Link>
 
@@ -29,9 +29,11 @@ export default function Header() {
             <Button>Hire me</Button>
           </Link>
         </div>
-        
+
         {/* mobile nav */}
-        <div className='xl:hidden'>mobile nav</div>
+        <div className='xl:hidden'>
+          <MobileNav />
+        </div>
       </div>
     </header>
   );
