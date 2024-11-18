@@ -12,7 +12,7 @@ const buttonVariants = cva(
         default:
           'bg-green-500 text-primary hover:bg-green-600',
         primary: 'bg-primary text-white',
-        outline: 'border border-green-500 bg-transparent text-green-500 hover:bg-green-500'
+        outline: 'border border-green-500 bg-transparent text-green-500 hover:bg-green-500 hover:text-primary'
       },
       size: {
         default: 'h-[44px] px-6',
