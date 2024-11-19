@@ -16,7 +16,7 @@ export default function Header() {
       <div className='container mx-auto flex justify-between items-center'>
         {/* logo */}
         <Link href='/'>
-          <h1 className='text-3xl'>
+          <h1 className='text-4xl'>
             גstepweaver
             <span className='text-green-500 blink'>|</span>
           </h1>

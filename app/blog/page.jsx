@@ -8,6 +8,7 @@ export default async function BlogPage() {
   return (
     <section className='min-h-[80vh] flex flex-col justify-center py-12 xl:py-0'>
       <div className='container mx-auto'>
+        <h1 className='text-3xl py-10 font-semibold leading-10 tracking-tighter'>blog<span className='blink text-green-500'>|</span></h1>
         <div className='grid grid-cols-1 md:grid-cols-2 gap-[60px]'>
           {posts.map((post, index) => {
             return (
@@ -22,9 +23,9 @@ export default async function BlogPage() {
                   </div>
                   <Link
                     href='/'
-                    className='w-[50px] h-[50px] bg-white group-hover:bg-green-500 transition-all duration-500 flex justify-center items-center hover:-rotate-45'
+                    className='w-[40px] h-[40px] bg-white group-hover:bg-green-500 transition-all duration-500 flex justify-center items-center hover:-rotate-45'
                   >
-                    <BsArrowDownRight className='text-primary text-3xl' />
+                    <BsArrowDownRight className='text-primary text-2xl' />
                   </Link>
                 </div>
                 {/* title */}
