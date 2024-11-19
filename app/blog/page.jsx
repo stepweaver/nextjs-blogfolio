@@ -2,7 +2,7 @@ import { BsArrowDownRight } from 'react-icons/bs';
 import Link from 'next/link';
 
 export default async function BlogPage() {
-  const response = await fetch('http://localhost:3001/posts');
+  const response = await fetch('http://localhost:3001/posts', { cache: 'no-store' });
   const posts = await response.json();
 
   return (
