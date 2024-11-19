@@ -1,0 +1,39 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "date": "2021-01-01",
+      "title": "Web Development",
+      "description": "The project",
+      "stargazers_count": 29
+    },
+    {
+      "id": 2,
+      "date": "2021-01-02",
+      "title": "vue-interactive-dashboard",
+      "description": "A Vue.js project for creating dynamic and interactive dashboards with real-time data visualization.",
+      "stargazers_count": 15
+    },
+    {
+      "id": 3,
+      "date": "2021-01-03",
+      "title": "nuxt-ecommerce-platform",
+      "description": "A Nuxt.js based e-commerce platform with server-side rendering for improved SEO and performance.",
+      "stargazers_count": 22
+    },
+    {
+      "id": 4,
+      "date": "2021-01-04",
+      "title": "typescript-express-api",
+      "description": "A robust backend API built with TypeScript and Express, featuring RESTful architecture and JWT authentication.",
+      "stargazers_count": 34
+    },
+    {
+      "id": 5,
+      "date": "2021-01-05",
+      "title": "elastic-blog-search",
+      "description": "A search engine for blog posts, implemented using ElasticSearch to provide fast and accurate search results.",
+      "stargazers_count": 18
+    }
+  ]
+}

@@ -32,3 +32,11 @@
 .blink {
   animation: blink 1s step-start infinite;
 }
+
+.text-outline {
+  -webkit-text-stroke: 1px #ffffff;
+}
+
+.text-outline-hover {
+  -webkit-text-stroke: 1px #22c55e;
+}
