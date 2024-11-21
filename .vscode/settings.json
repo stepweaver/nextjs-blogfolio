@@ -19,5 +19,6 @@
     "titleBar.inactiveForeground": "#15202b99"
   },
   "peacock.color": "#39FF14",
-  "cSpell.words": ["גstepweaver"]
+  "cSpell.words": ["גstepweaver"],
+  "css.lint.unkownAtRules": "ignore"
 }
