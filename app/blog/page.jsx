@@ -1,5 +1,3 @@
-import { BsArrowDownRight } from 'react-icons/bs';
-import Link from 'next/link';
 import { Suspense } from 'react';
 
 // components
