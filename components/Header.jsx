@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { Button } from './ui/button';
 import { usePathname } from 'next/navigation';
 
-// Components
+// components
 import Nav from './Nav';
 import MobileNav from './MobileNav';
 
@@ -16,7 +16,7 @@ export default function Header() {
       <div className='container mx-auto flex justify-between items-center'>
         {/* logo */}
         <Link href='/'>
-          <h1 className='text-4xl'>
+          <h1 className='text-4xl font-semibold'>
             גstepweaver
             <span className='text-green-500 blink'>|</span>
           </h1>

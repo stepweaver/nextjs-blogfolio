@@ -27,7 +27,7 @@ export default function Nav() {
               href={link.path}
               className={`${
                 link.path === pathname && 'text-green-500'
-              } hover:text-green-500 transition-all`}
+              } hover:text-green-500 p-1 text-2xl transition-all`}
             >
               {link.name}
             </Link>

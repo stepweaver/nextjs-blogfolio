@@ -27,7 +27,7 @@ export default function MobileNav() {
       <SheetContent className='flex flex-col'>
         {/* logo */}
         <div className='mt-2 mb-5 text-2xl'>
-          <h1 className='text-4xl '>
+          <h1 className='text-4xl font-semibold'>
             <Link href='/'>
               גstepweaver<span className='text-green-500 blink'>|</span>
             </Link>
@@ -44,7 +44,7 @@ export default function MobileNav() {
                   className={`${
                     link.path === pathname &&
                     'text-green-500'
-                  } text-xl hover:text-green-500 transition-all`}
+                  } text-2xl hover:text-green-500 transition-all`}
                 >
                   {link.name}
                 </Link>
