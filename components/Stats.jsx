@@ -34,7 +34,7 @@ export default function Stats() {
               >
                 <CountUp
                   end={item.num}
-                  duration={5}
+                  duration={10}
                   delay={2}
                   className='text-4xl xl:text-6xl font-extrabold'
                 />

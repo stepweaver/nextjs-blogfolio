@@ -18,8 +18,8 @@ const hack = localFont({
 });
 
 export const metadata = {
-  title: 'Stephen Weaver',
-  description: 'Stephen Weaver Portfolio and Blog',
+  title: 'λstepweaver Portfolio',
+  description: 'stepweaver Portfolio',
 };
 
 export default function RootLayout({ children }) {

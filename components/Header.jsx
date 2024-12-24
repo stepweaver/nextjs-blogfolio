@@ -11,13 +11,21 @@ import MobileNav from './MobileNav';
 export default function Header() {
   const pathname = usePathname();
 
+  const getHeaderText = () => {
+    if (pathname === '/') {
+      return 'λstepweaver';
+    } else {
+      return `λstepweaver${pathname}`;
+    }
+  };
+
   return (
-    <header className='py-2 xl:py-4 text-white'>
+    <header className='py-2 xl:py-4 text-white mb-8'>
       <div className='container mx-auto flex justify-between items-center'>
         {/* logo */}
         <Link href='/'>
           <h1 className='text-4xl font-semibold'>
-            גstepweaver
+            {getHeaderText()}
             <span className='text-green-500 blink'>|</span>
           </h1>
         </Link>
